@@ -102,4 +102,14 @@ body[data-theme="dark"] label { color: #94A3B8; }
 
 .alert-success { background: #F0FDF4; color: #16A34A; border: 1px solid #BBF7D0; }
 .alert-danger  { background: #FEF2F2; color: #DC2626; border: 1px solid #FECACA; }
-.alert-clean   { background: #EFF6FF; color: #1A56A8; border: 1px solid #BFDBFE; }
+
+
+select.input option {
+  background: #0B1120;
+  color: #E2E8F0;
+}
+
+body[data-theme="light"] select.input option {
+  background: white;
+  color: #1E293B;
+}
